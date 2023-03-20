@@ -7,11 +7,13 @@
 int main(void)
 {
 	char lc;
+	int i;
 
-	for(lc = 'a'; lc <= 'z'; lc++);
+
+	for (i = 0; i < 26; i++);
 	{
-		putchar(lc);
+		putchar(alp[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
