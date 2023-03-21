@@ -13,24 +13,24 @@ int main(void)
 
 	while (firstDigit <= 99)
 	{
-		seconDigit = firstDigit;
-		while (seconDigit <= 99)
+		secondDigit = firstDigit;
+		while (secondDigit <= 99)
 		{
-			if (seconDigit != firstDigit)
+			if (secondDigit != firstDigit)
 			{
 				putchar((firstDigit / 10) + 48);
 				putchar((firstDigit % 10) + 48);
 				putchar(' ');
-				putchar((seconDigit / 10) + 48);
-				putchar((seconDigit % 10) + 48);
+				putchar((secondDigit / 10) + 48);
+				putchar((secondDigit % 10) + 48);
 
-				if (firstDigit != 98 || seconDigit != 99)
+				if (firstDigit != 98 || secondDigit != 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			seconDigit++;
+			secondDigit++;
 		}
 		firstDigit++;
 	}
