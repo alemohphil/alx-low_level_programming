@@ -1,1 +1,1 @@
-Hello C file
+0x0E. C - Structures, typedef
